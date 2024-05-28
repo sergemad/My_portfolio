@@ -15,7 +15,7 @@ import streamlit.components.v1 as components
 #import tensorflow as tf
 from streamlit_player import st_player
 
-st.set_page_config(page_title='Serge Keita\'s portfolio' ,layout="wide",page_icon='👨‍🔬')
+st.set_page_config(page_title='Serge Keita\'s portfolio' ,layout="wide")
 
 st.markdown(info['LinkedIn_profile'],unsafe_allow_html=True)
 
