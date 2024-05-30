@@ -21,7 +21,7 @@ import os
 # Function to install Ollama if not already installed
 def install_ollama():
     # Run the setup script
-    subprocess.check_call(["/bin/bash", "setup_ollama.sh"])
+    subprocess.check_call(["/bin/bash", "/mount/src/my_portfolio/setupollama.sh"])
 
 # Function to start Ollama server as a subprocess
 def start_ollama_server():
