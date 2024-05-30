@@ -21,7 +21,7 @@ import os
 # Function to install Ollama if not already installed
 def install_ollama():
     if not os.path.exists('/app/ollama'):  # Assuming '/app/ollama' is the installation directory
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'git+https://github.com/your-repo/ollama.git'])
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'ollama'])
 
 # Function to start Ollama server as a subprocess
 def start_ollama_server():
