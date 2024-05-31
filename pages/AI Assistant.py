@@ -30,7 +30,7 @@ def install_ollama():
 
 # Function to start Ollama server as a subprocess
 def start_ollama_server():
-    process = subprocess.Popen(["/mount/src/my_portfolio/setupollama.sh"], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    process = subprocess.Popen(["/mount/src/my_portfolio/setupollama.sh"],shell=True ,stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     time.sleep(3)  # Wait for the server to start
     return process
 
