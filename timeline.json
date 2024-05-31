@@ -40,7 +40,7 @@
             },
             "text": {
                 "headline": "Data Science Intern at DataXLab",
-                "text": "CNN models for unsupervised learning"
+                "text": "6 months - Development of a model for bacteria detection. Data collection, cleaning, and preparation. Creation of the unsupervised image segmentation model (WNET). Analysis and presentation of the model's results."
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "text": {
                 "headline": "Data consultant Intern",
-                "text": "NLP models for risks analysis"
+                "text": "6 months - Programming a security risk analysis/audit tool. Implementation and training of a confidential file classification model (DLP). Creation of a security risk analysis model based on Natural Language Processing (NLP)"
             }
         },
         {
@@ -69,6 +69,48 @@
             "text": {
                 "headline": "Devops Cloud POEI",
                 "text": "I've acquired skills in CI/CD and Cloud solution deployement with AWS, Terraform and also perform skills in docker, Kubernetes, Ansible, Linux"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2022",
+                "month": "6"
+            },
+            "media": {
+                "url": "https://media.licdn.com/dms/image/C4D0BAQHTHsDaLzikzQ/company-logo_100_100/0/1631314451887?e=1725494400&v=beta&t=F3G5feWp7XwcS1c86almEFg7GaihiwA1HvWEZazKayI",
+                "credit": "LEDR Technologies Inc"
+            },
+            "text": {
+                "headline": "Python & Rust developer",
+                "text": "3 months - Programming in python and Rust. Managing the transfer of some Python features to Rust."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2021",
+                "month": "11"
+            },
+            "media": {
+                "url": "https://media.licdn.com/dms/image/C4D0BAQGYABxCiwdCjQ/company-logo_100_100/0/1645547323469/numalim_logo?e=1725494400&v=beta&t=nEtBp5rwuBtG34oR5LgvpCs_fPFIshVCgD_ScLQQYxs",
+                "credit": "NumAlim"
+            },
+            "text": {
+                "headline": "Data Analyst",
+                "text": "6 months - Data processing with Python, data analytics, SQL. Creation of dashboards using Power BI and Excel."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2018",
+                "month": "6"
+            },
+            "media": {
+                "url": "https://media.licdn.com/dms/image/D4E0BAQEmnmIHBD37LA/company-logo_100_100/0/1667842012888/famib_group_logo?e=1725494400&v=beta&t=wq5DZ_1tGYHg7i8WaYOGPzrJDvih6j64HacXkQgewwQ",
+                "credit": "Famib Group"
+            },
+            "text": {
+                "headline": "IT Technicien",
+                "text": "2 months - Installation of SMTP, FTP, and other protocols. Web page creation. Installation and maintenance of operating systems for companies."
             }
         }
     ]

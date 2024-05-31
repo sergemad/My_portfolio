@@ -20,17 +20,20 @@ import os
 
 # Function to install Ollama if not already installed
 def install_ollama():
-    # Run the setup script
-    subprocess.check_call(["/bin/bash", "setupollama.sh"])
+    command = "ollama pull nomic-embed-text:latest"
+    process = subprocess.run(command, shell=True, capture_output=True, text=True)
+    time.sleep(3)  # Wait for the server to start
+    return process
 
 # Function to start Ollama server as a subprocess
 def start_ollama_server():
-    process = subprocess.Popen(["ollama", "start", "--port", "8000"])
+    command = "ollama start"
+    process = subprocess.run(command, shell=True, capture_output=True, text=True)
     time.sleep(3)  # Wait for the server to start
     return process
 
 # Install Ollama
-install_ollama()
+ollama_install_p = install_ollama()
 
 # Start the Ollama server
 ollama_process = start_ollama_server()
