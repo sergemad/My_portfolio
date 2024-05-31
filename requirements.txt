@@ -17,3 +17,4 @@ chromadb>=0.2.0
 sentence-transformers
 pypdf
 ollama
+pysqlite3-binary

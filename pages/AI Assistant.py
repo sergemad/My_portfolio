@@ -14,6 +14,9 @@ import time
 import sys
 import os
 
+#Debuging SQLite3 
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 #Populate the database
 #main()
 
