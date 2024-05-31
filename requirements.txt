@@ -13,8 +13,7 @@ langchain_community
 langchain_core
 transformers
 torch
-sqlite3
-chromadb>=0.2.0
+chromadb
 sentence-transformers
 pypdf
 ollama
