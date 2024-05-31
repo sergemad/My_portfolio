@@ -13,7 +13,7 @@ langchain_community
 langchain_core
 transformers
 torch
-sqlite3>=3.35.0
+sqlite3
 chromadb>=0.2.0
 sentence-transformers
 pypdf
