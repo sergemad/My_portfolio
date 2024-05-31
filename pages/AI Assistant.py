@@ -30,7 +30,7 @@ def install_ollama():
 
 # Function to start Ollama server as a subprocess
 def start_ollama_server():
-    command = "ollama start"
+    command = "ollama ollama start --port 11434"
     process = subprocess.run(command, shell=True, capture_output=True, text=True)
     time.sleep(3)  # Wait for the server to start
     return process
