@@ -16,7 +16,7 @@ info = {
   'City':'Cachan, Paris',
   'LinkedIn_profile': f"""
     <div style="text-align: center;">
-        <img src="https://media.licdn.com/dms/image/D4E35AQFPWI18jKvszA/profile-framedphoto-shrink_400_400/0/1716546400602?e=1717426800&v=beta&t=w1ysv2XVJHd50z5Rnufl6RBaRO3knLR18-x6Wi-pQEs" alt="Photo de profil" style="width:100px;height:100px;border-radius:50%;">
+        <img src="https://media.licdn.com/dms/image/D4E35AQFPWI18jKvszA/profile-framedphoto-shrink_400_400/0/1716546400602?e=1718920800&v=beta&t=AWRgrRBIZ3TkewC1aIlw6Bl9QIQR5qTro9tpsQDyAMs" alt="Photo de profil" style="width:100px;height:100px;border-radius:50%;">
         <h2>Serge KEITA</h2>
         <p><a href="https://www.linkedin.com/in/sergekt" target="_blank">Voir le profil LinkedIn</a></p>
     </div>
